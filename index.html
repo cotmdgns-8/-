@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>지안이 놀리기 게임</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <div class="score-board">
+            <div class="score">점수: <span id="score">0</span></div>
+            <div class="time">시간: <span id="time">30</span>초</div>
+            <div class="speed">놀린 횟수: <span id="speed">0</span></div>
+        </div>
+        <canvas id="gameCanvas"></canvas>
+        <div class="controls">
+            <p>지안이를 클릭해서 놀려보세요! 🎯</p>
+            <p id="gameOverText"></p>
+        </div>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
+
